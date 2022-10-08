@@ -6,14 +6,28 @@ EMAIL: vallesja@uci.edu
 -->
   <head>
     <meta charset="utf-8" />
-    <meta name="author" content="Your name here" />
-    <meta name="description" content="description of your page" />
-    <!-- you would link to an external stylesheet here! -->
+    <meta name="author" content="Johnathon Valles" />
+    <meta
+      name="description"
+      content="Johnny's portfolio showcasing an about, projects, and contact section."
+    />
+
+    <!-- Bootstap 5 CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,79 +37,152 @@ EMAIL: vallesja@uci.edu
       href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+Mono&family=Oswald&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Johnathon Valles | Portfolio</title>
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Johnathon Valles</title>
   </head>
   <body>
     <header>
-      <div>
-        <nav>
-          <ul id="site-links">
-            <li>
-              <a href="#">
-                <i class="bi bi-house-door-fill"></i>
-                <span>home</span>
-              </a>
-            </li>
+      <button id="menu-toggle" title="menu-toggle">
+        <i class="fa-solid fa-bars" id="menu-icon-bars"></i>
+        <i class="fa-solid fa-xmark" id="menu-icon-close"></i>
+      </button>
+      <nav>
+        <ul id="site-links">
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-house-chimney"></i>
+              <span>home</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="#">
-                <i class="bi bi-person-lines-fill"></i>
-                <span>about</span>
-              </a>
-            </li>
+          <li>
+            <a href="#about">
+              <i class="fa-solid fa-address-card"></i>
+              <span>about</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="#">
-                <i class="bi bi-tools"></i>
-                <span>projects</span>
-              </a>
-            </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <span>projects</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="#">
-                <i class="bi bi-envelope-fill"></i>
-                <span>contact</span>
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-envelope"></i>
+              <span>contact</span>
+            </a>
+          </li>
 
-          <ul id="social-links">
-            <li>
-              <a href="#">
-                <i class="bi bi-linkedin"></i>
-              </a>
-            </li>
+          <li>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>linkedin</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="#">
-                <i class="bi bi-github"></i>
-              </a>
-            </li>
+          <li>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-github"></i>
+              <span>github</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="#">
-                <i class="bi bi-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
+          <li>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-instagram"></i>
+              <span>instagram</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <div class="landing-intro">
-          <div class="container">
-            <img
-              src="images/johnny.jpeg"
-              alt="A portrait of Johnathon Valles."
-            />
-            <h1>Hi, I'm Johnny.</h1>
-            <p>
-              I'm a Computer Science student specializing in Systems & Software
-              at the University of California, Irvine. I'm interested in systems
-              programming, full-stack development, and crafting projects in
-              collaborative environments.
-            </p>
-          </div>
+    <article id="landing">
+      <div class="container">
+        <img src="images/johnny.jpeg" alt="A portrait of Johnathon Valles." />
+        <h1>Hi, I'm Johnny.</h1>
+        <p>
+          I'm a Computer Science student specializing in Systems & Software at
+          the University of California, Irvine. I'm interested in systems
+          programming, full-stack development, and crafting projects in
+          collaborative environments.
+        </p>
+      </div>
+    </article>
+
+    <article id="about">
+      <div class="left">
+        <div class="container">
+          <img
+            src="images/me-utah1.jpg"
+            alt="Johnny at Zion National Park in Utah"
+            class="img-thumbnail"
+          />
+          <img
+            src="images/me-utah2.jpg"
+            alt="Johnny in river at Zion National Park in Utah"
+            class="img-thumbnail"
+          />
+          <img
+            src="images/me-vanessa.jpg"
+            alt="Johnny and Vanessa at the Huntington Library"
+            class="img-thumbnail"
+          />
         </div>
       </div>
-    </header>
+
+      <div class="right">
+        <div class="container">
+          <h1>about me</h1>
+          <p>
+            I'm a computer science student at UC Irvine, and will be graduating
+            in Winter of 2023.
+          </p>
+          <p>
+            My interest in computer science began during the last two years of
+            high school. At the time, I had discovered web development and began
+            to learn HTML, CSS, and JavaScript. After graduating from high
+            school, I knew I wanted to pursue a bachelors in a tech related
+            field. However, I was unsure if computer science was the right path
+            for me. I completed my lower-division course work at a local
+            community college and after some time decided to transfer to UC
+            Irvine and pursure a bachelors.
+          </p>
+          <p>
+            During my time at UC Irvine, I have enjoyed coursework in systems
+            programming (e.g., computer architecture, operating systems, and
+            compilers). During my free time outside of school, I'm also
+            interested in full-stack development. At the moment, I am learning
+            how to build full-stack applications using Java.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article id="projects">
+      <div class="container">
+        <h1>Some of my projects...</h1>
+        <div></div>
+      </div>
+    </article>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Copyright 2022 | Johnny Valles</p>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
