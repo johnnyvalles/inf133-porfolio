@@ -1,4 +1,4 @@
---Readme document for *author*--
+--Readme document for Johnathon Valles--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -27,25 +27,27 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     - Linked to external pages in the navigation (e.g., instagram, github)
     - Linked to external pages in the project cards section (e.g., github, archangel).
     - Utilized semantic HTML tags (e.g., header, nav, main, article, footer).
-    - Utilized custom icons from Fontawesome (e.g., navigation & project cards).
+    - Utilized custom icons from Font Awesome (e.g., navigation & project cards).
 
 (b) CSS features
-    - Modified padding & margins in order to indent content & enhance readability (e.g., landing page, about section, projects section).
+    - Modified padding & margins to indent content & enhance readability (e.g., landing page, about section, projects section).
     - Modified link tags & text colors to display site content in a more visually appealing manner.
     - Leveraged Bootstrap 5 CSS helpers when styling the structuring the contact form.
     - Utilized custom Google Fonts (e.g., Anton, Oswald) and added appropriate fallback fonts.
+    - Utilized a media query to enhance the site's navigation of varying viewport dimensions.
+    - Utilized a media query to enhance the way the project cards are displayed on larger viewports.
 
 (c) Advanced features
-    - I did not like the built in navigations from Bootstrap 5 so I constructed a custom one. On smaller screens (<= 992px), the navigation is styled such that only a menu toggle button is
-    displayed in the upper right hand corner. Uppon clicking/tapping the button, the menu slides out from the left side of the screen. Additionally, when the viewport width is larger (>= 992px), the navigation
+    - I didn't like the built-in navigation elements from Bootstrap 5. Therefore, I constructed a custom navigation. On smaller screens (<= 992px), the navigation is styled such that only a menu toggle button is
+    displayed in the upper right-hand corner. Upon clicking/tapping the button, the menu slides out from the left side of the screen. Additionally, when the viewport width is larger (>= 992px), the navigation
     is styled such that it appears fixed at the top of the viewport.
     - The projects section on smaller viewport widths displays all project cards vertically. On larger viewports, the project cards are displayed such that there are 3 columns and rows.
-    - Leveraged CSS selectors (e.g., nested, child sibling combinator) to specify the structure of the portfolio content.
+    - Leveraged CSS selectors (e.g., nested, child sibling selector '>') to specify the structure of the portfolio content.
     - Created a contact form with basic client-side validation. Additionally, the contact form is styled using Bootstrap 5 helpers to manage the dimensions of the form as the viewport dimensions change.
 
 3. How long, in hours, did it take you to complete this assignment?
     - 38 hours (3-6 hour intervals of work)
-    - I found the design process the most challenging and time consuming.
+    - I found the design process the most challenging and time-consuming.
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
     - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -68,9 +70,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
     - Consulted some of my classmates from INF 115 regarding the design process.
     - Consulted some of my classmates (David Branson, Tom Ustundag) from INF 133 regarding the design process, ideas, and tools.
-    - Consulted with friends outside of the CS/INF departments by allowing them to nagivate the portolio while providing feedback on the usability & design.
+    - Consulted with friends outside the CS/INF departments by allowing them to navigate the portfolio while providing feedback on the usability & design.
 
 6. Is there anything special we need to know in order to run your code?
-    - N/A
+    - Nothing special.
     - Tested the code by deploying it to GitHub pages to ensure it runs.
-
