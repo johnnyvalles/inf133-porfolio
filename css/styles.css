@@ -377,17 +377,17 @@ footer p {
   }
 
   #site-links a span,
-  #site-links a em {
+  #site-links a span {
     margin: 0 !important;
     padding: 0 !important;
   }
 
   .social-link span {
-    display: none;
+    font-size: 1.8em;
   }
 
-  .social-link em {
-    font-size: 1.8em;
+  .social-link span:nth-child(2) {
+    display: none;
   }
 
   #landing {
