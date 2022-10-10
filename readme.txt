@@ -10,40 +10,67 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/14
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */1 Advanced feature
-- */3 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+12/14
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 1/1 Advanced feature
+- 2/3 Responsive layout
+- 1/1 Passes validation checks
+- 1/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+    - Included 4 images, each with a descriptive alt text.
+    - Used appropriate headings (h1, h2) and paragraph text in the landing, about, and project sections.
+    - Linked to external pages in the navigation (e.g., instagram, github)
+    - Linked to external pages in the project cards section (e.g., github, archangel).
+    - Utilized semantic HTML tags (e.g., header, nav, main, article, footer).
+    - Utilized custom icons from Fontawesome (e.g., navigation & project cards).
 
 (b) CSS features
-
-
+    - Modified padding & margins in order to indent content & enhance readability (e.g., landing page, about section, projects section).
+    - Modified link tags & text colors to display site content in a more visually appealing manner.
+    - Leveraged Bootstrap 5 CSS helpers when styling the structuring the contact form.
+    - Utilized custom Google Fonts (e.g., Anton, Oswald) and added appropriate fallback fonts.
 
 (c) Advanced features
-
-
+    - I did not like the built in navigations from Bootstrap 5 so I constructed a custom one. On smaller screens (<= 992px), the navigation is styled such that only a menu toggle button is
+    displayed in the upper right hand corner. Uppon clicking/tapping the button, the menu slides out from the left side of the screen. Additionally, when the viewport width is larger (>= 992px), the navigation
+    is styled such that it appears fixed at the top of the viewport.
+    - The projects section on smaller viewport widths displays all project cards vertically. On larger viewports, the project cards are displayed such that there are 3 columns and rows.
+    - Leveraged CSS selectors (e.g., nested, child sibling combinator) to specify the structure of the portfolio content.
+    - Created a contact form with basic client-side validation. Additionally, the contact form is styled using Bootstrap 5 helpers to manage the dimensions of the form as the viewport dimensions change.
 
 3. How long, in hours, did it take you to complete this assignment?
-
-
+    - 38 hours (3-6 hour intervals of work)
+    - I found the design process the most challenging and time consuming.
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-
-
+    - https://developer.mozilla.org/en-US/docs/Web/CSS
+    - https://developer.mozilla.org/en-US/docs/Web/HTML
+    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - https://moderncss.dev/guide-to-advanced-css-selectors-part-one/
+    - https://fonts.google.com/
+    - https://www.magicpattern.design/
+    - https://fontawesome.com/icons
+    - https://getbootstrap.com/docs/5.0/forms/floating-labels/
+    - https://coolors.co/palettes/trending
+    - https://wave.webaim.org/
+    - https://validator.w3.org/
+    - https://jigsaw.w3.org/css-validator/
+    - https://uigradients.com/#BoraBora
+    - https://coolors.co/gradient-maker/f9a470-bc556f
+    - https://getbootstrap.com/docs/5.2/getting-started/introduction/
+    - https://getbootstrap.com/docs/5.0/layout/breakpoints/
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
-
+    - Consulted some of my classmates from INF 115 regarding the design process.
+    - Consulted some of my classmates (David Branson, Tom Ustundag) from INF 133 regarding the design process, ideas, and tools.
+    - Consulted with friends outside of the CS/INF departments by allowing them to nagivate the portolio while providing feedback on the usability & design.
 
 6. Is there anything special we need to know in order to run your code?
+    - N/A
+    - Tested the code by deploying it to GitHub pages to ensure it runs.
 
