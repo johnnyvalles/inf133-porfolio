@@ -300,6 +300,16 @@ footer p {
 #contact {
   background-color: #fff;
   padding: 2em 1em;
+  position: relative;
+}
+
+#contact #particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
 }
 
 #contact .container {
@@ -307,6 +317,8 @@ footer p {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  position: relative;
+  z-index: 100;
 }
 
 #contact .container h1 {
@@ -315,9 +327,10 @@ footer p {
 }
 
 #contact form {
-  border: 2px solid #212529;
+  border: 1px solid #212529;
   padding: 1em;
   border-radius: 10px;
+  background-color: #FFF;
 }
 
 .code-inquiry {
