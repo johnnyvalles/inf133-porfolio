@@ -31,7 +31,7 @@ siteLinks.forEach(link => {
   });
 });
 
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+// load particles
 particlesJS.load('particles-js', 'particlesjs-config.json', function() {
   console.log('callback - particles.js config loaded');
 });
