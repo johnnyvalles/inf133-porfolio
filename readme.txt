@@ -34,8 +34,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     - Modified link tags & text colors to display site content in a more visually appealing manner.
     - Leveraged Bootstrap 5 CSS helpers when styling the structuring the contact form.
     - Utilized custom Google Fonts (e.g., Anton, Oswald) and added appropriate fallback fonts.
-    - Utilized a media query to enhance the site's navigation of varying viewport dimensions.
-    - Utilized a media query to enhance the way the project cards are displayed on larger viewports.
+    - Utilized custom media queries to enhance the site's navigation of varying viewport dimensions.
+    - Utilized custom media queries to enhance the way the project cards are displayed on larger viewports.
 
 (c) Advanced features
     - I didn't like the built-in navigation elements from Bootstrap 5. Therefore, I constructed a custom navigation. On smaller screens (<= 992px), the navigation is styled such that only a menu toggle button is
@@ -73,5 +73,5 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     - Consulted with friends outside the CS/INF departments by allowing them to navigate the portfolio while providing feedback on the usability & design.
 
 6. Is there anything special we need to know in order to run your code?
-    - Nothing special.
-    - Tested the code by deploying it to GitHub pages to ensure it runs.
+    - Site must be loaded from a server (e.g., VS Code Live Server) for the contact section background to load (NOT ESSENTIAL THOUGH).
+    - Tested the code by deploying it to GitHub pages to ensure it runs (http://johnnyvalles.com/inf133-porfolio/).
