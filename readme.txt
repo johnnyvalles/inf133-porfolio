@@ -74,4 +74,4 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 6. Is there anything special we need to know in order to run your code?
     - Site must be loaded from a server (e.g., VS Code Live Server) for the contact section background to load (NOT ESSENTIAL THOUGH).
-    - Tested the code by deploying it to GitHub pages to ensure it runs (http://johnnyvalles.com/inf133-porfolio/).
+    - Tested the code by deploying it to GitHub pages to ensure it runs (http://johnnyvalles.com/inf133-portfolio/).
